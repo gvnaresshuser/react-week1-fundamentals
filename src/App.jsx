@@ -1,5 +1,5 @@
 import JsBasics from "./concepts/01-js-basics";
-
+import ComponentsProps from "./concepts/02-components-props";
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
       <h1>React Week-1 Fundamentals</h1>
 
       <JsBasics />
-
+      <ComponentsProps />
     </div>
   );
 }

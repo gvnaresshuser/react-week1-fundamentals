@@ -1,6 +1,9 @@
 import JsBasics from "./concepts/01-js-basics";
 import ComponentsProps from "./concepts/02-components-props";
 
+import UseStateEvents from "./concepts/03-useState-events";
+
+
 export default function App() {
   return (
     <div style={{ padding: 20 }}>
@@ -8,6 +11,14 @@ export default function App() {
 
       <JsBasics />
       <ComponentsProps />
+      <hr />
+
+      <ComponentsProps />
+      <hr />
+
+      <UseStateEvents />
+      <hr />
+
     </div>
   );
 }
